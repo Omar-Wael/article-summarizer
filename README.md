@@ -9,6 +9,9 @@ This Laravel application allows users to input a link to an article, fetches and
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Configuration](#configuration)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Requirements
 
