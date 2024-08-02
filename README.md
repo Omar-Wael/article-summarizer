@@ -73,10 +73,9 @@ This Laravel application allows users to input a link to an article, fetches and
 
 3. **Summarize an article:**
 
-- Enter the URL of the article you want to summarize in the input field.
-
-- Click the "Summarize" button.
-- The summary will be displayed below the input field.
+    - Enter the URL of the article you want to summarize in the input field.
+    - Click the "Summarize" button.
+    - The summary will be displayed below the input field.
 
 ## Contributing
 
