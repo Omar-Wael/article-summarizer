@@ -52,24 +52,6 @@ class ArticleController extends Controller
         return ''; // Fallback if no article node is found
     }
 
-    // private function getSummary($text)
-    // {
-    //     $apiKey = env('OPENAI_API_KEY');
-    //     // $endpoint = 'https://api.openai.com/v1/engines/davinci-codex/completions';
-    //     $endpoint = 'https://api.openai.com/v1/chat/completions';
-
-    //     $response = Http::withHeaders([
-    //         'Authorization' => 'Bearer ' . $apiKey,
-    //         'Content-Type' => 'application/json',
-    //     ])->post($endpoint, [
-    //         'prompt' => "Summarize the following article: " . $text,
-    //         'max_tokens' => 150,
-    //     ]);
-
-    //     $data = $response->json();
-    //     dd($data);
-    //     return $data['choices'][0]['text'];
-    // }
     private function getSummary($text)
     {
         $apiKey = env('OPENAI_API_KEY');
