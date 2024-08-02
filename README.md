@@ -59,26 +59,26 @@ This Laravel application allows users to input a link to an article, fetches and
     curl.cainfo="C:\path\to\cacert.pem"
     ```
 
-    ## Usage
+## Usage
 
-    1. **Run the development server:**
-        ```bash
-        php artisan serve
-        ```
-    2. **Access the application:**
-       Open your web browser and go to http://localhost:8000.
+1. **Run the development server:**
+    ```bash
+    php artisan serve
+    ```
+2. **Access the application:**
+   Open your web browser and go to http://localhost:8000.
 
-    3. **Summarize an article:**
+3. **Summarize an article:**
 
-    - Enter the URL of the article you want to summarize in the input field.
+- Enter the URL of the article you want to summarize in the input field.
 
-    - Click the "Summarize" button.
-    - The summary will be displayed below the input field.
+- Click the "Summarize" button.
+- The summary will be displayed below the input field.
 
-    ## Contributing
+## Contributing
 
-    Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
+Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
-    ## License
+## License
 
-    This project is licensed under the MIT license.
+This project is licensed under the MIT license.
